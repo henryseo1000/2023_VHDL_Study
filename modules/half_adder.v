@@ -1,9 +1,18 @@
 // Half Adder Circuit Test Bench
 // Md. Nahidul Islam
 // 27 - Jun - 2021
-module half_adder (A , B , S , C );
+module half_adder ( C , S , A , B );
          input A , B; 
          output S , C;
+         xor ( S , A , B );
+         and ( C , A , B );
+endmodule
+
+module half_adder ( 
+    output C , 
+    output S , 
+    input A , B 
+);
          xor ( S , A , B );
          and ( C , A , B );
 endmodule

@@ -1,0 +1,56 @@
+$date
+	Mon May 22 01:41:02 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_2x4_decoder $end
+$var wire 1 ! d3 $end
+$var wire 1 " d2 $end
+$var wire 1 # d1 $end
+$var wire 1 $ d0 $end
+$var reg 1 % a $end
+$var reg 1 & b $end
+$scope module ckt $end
+$var wire 1 % A $end
+$var wire 1 & B $end
+$var wire 1 $ D0 $end
+$var wire 1 # D1 $end
+$var wire 1 " D2 $end
+$var wire 1 ! D3 $end
+$var wire 1 ' a1 $end
+$var wire 1 ( b1 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1(
+1'
+0&
+0%
+1$
+0#
+0"
+0!
+$end
+#100
+0$
+0'
+1"
+1%
+#200
+0(
+1#
+1'
+0"
+1&
+0%
+#300
+0#
+0'
+1!
+1%
